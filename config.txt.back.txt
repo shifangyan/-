@@ -1,0 +1,30 @@
+{
+"local_ip": "10.51.10.121",
+	"local_listen_port": 9000,
+	"head_length": 4,
+	"services": [{
+			"name": "detec",
+			"addr": {
+				"ip": "10.51.70.109",
+				"port": 40000
+			},
+			"type": 0
+		},
+		{
+			"name": "classify-gender",
+			"addr": {
+				"ip": "10.51.70.109",
+				"port": 40001
+			},
+			"type": 1
+		},
+		{
+			"name": "classify-hat",
+			"addr": {
+				"ip": "10.51.70.109",
+				"port": 40002
+			},
+			"type": 1
+		}
+	]
+}

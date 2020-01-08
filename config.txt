@@ -1,0 +1,20 @@
+{
+	"java_back-end": {
+		"listen_ip": "0.0.0.0",
+		"listen_port": 9000
+	},
+	"algorithm_server": {
+		"listen_ip": "0.0.0.0",
+		"listen_port": 9001
+	},
+
+	"front-end_addr": {
+		"listen_ip":"0.0.0.0",
+		"listen_port":9002
+	},
+	"java_back-end_addr": {
+		"ip":"10.51.10.100",
+		"port":1000,
+		"path":"/test"
+	}
+}
